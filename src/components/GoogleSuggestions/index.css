@@ -1,0 +1,67 @@
+/* Write your CSS here */
+
+.bg-container {
+  background-size: cover;
+  height: 100vh;
+  width: auto;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  width: 60%;
+  font-family: roboto;
+}
+
+.google-card {
+  height: 20%;
+  width: 40%;
+  padding-bottom: 10px;
+}
+.search-card-container {
+  margin-top: 20px;
+  background-color: #ffffff;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  border-radius: 15px;
+  width: 50%;
+}
+
+.search-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 10px;
+}
+
+.icon-card {
+  height: 40px;
+  width: 40px;
+  background-color: #ffffff;
+  padding: 5px;
+  border-radius: 10px;
+  margin-right: 0px;
+}
+
+.search-input {
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  height: 40px;
+  width: 90%;
+  font-size: 18px;
+  font-weight: bolder;
+  color: #64748b;
+  padding: 5px;
+}
+
+.suggest-card {
+  list-style-type: none;
+}

@@ -1,0 +1,32 @@
+/* Write your CSS here */
+
+.list-card {
+  display: flex;
+  justify-content: space-between;
+}
+
+.text-word {
+  color: #475569;
+  font-family: roboto;
+  font-size: 18px;
+  font-weight: bolder;
+}
+
+.btn {
+  margin-top: 12px;
+  height: 40px;
+  width: 100px;
+  outline: none;
+  border-radius: 10px;
+  background-color: #ffffff;
+  border: none;
+}
+
+.arrow-card {
+  height: 35px;
+  width: 40px;
+  background-color: #ffffff;
+  padding: 5px;
+  border-radius: 10px;
+  margin-right: 20px;
+}
